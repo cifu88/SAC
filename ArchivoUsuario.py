@@ -8,8 +8,10 @@ class Usuario:
     Ubicacion : str
     ActividadEconomica : ActividadEconomica
 
-    def __init__(self, actividadEconomica):
-         self.actividadEconomica = ActividadEconomica
+    def __init__(self, actividadEconomica, Id, Nombre):
+        self.actividadEconomica = ActividadEconomica
+        self.nombre = Nombre
+        self.id = Id
 
     def main():
         NumeroUsuarios = int(input("Ingrese el número de usuarios: "))
