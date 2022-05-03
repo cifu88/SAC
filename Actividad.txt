@@ -1,0 +1,6 @@
+Nombre de la actividad economica: Produccion agricola
+Codigo: 23254
+
+Nombre de la actividad economica: Servicios de salud
+Codigo: 45654
+

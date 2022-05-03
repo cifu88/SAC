@@ -1,0 +1,24 @@
+ID: 30321678
+Correo Electronico: paula.k@gmail.com
+
+Nombre: Paula Andrea Garcia Perez
+
+Telefono: 3228674569
+
+Ubicacion: Manizales
+
+Actividad economica: Produccion agricola
+
+=======================================================
+ID: 1008794560
+Correo Electronico: alvaro45@gmail.com
+
+Nombre: Alvaro Ramirez Lopez
+
+Telefono: 314567986
+
+Ubicacion: Cali
+
+Actividad economica: Servicios de salud
+
+=======================================================
