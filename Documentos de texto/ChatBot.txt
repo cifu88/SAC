@@ -1,0 +1,6 @@
+Pregunta: Como busco una entidad?
+Respuesta: Mediante el buscador, ubicado en la parte superior de la pagina, ingrese el nombre de dicha entidad.
+
+Pregunta: Los procesos estan actualizados?
+Respuesta: Los procesos estan actualizados basados en la pagina de datos abiertos del gobierno datos.gov.co
+

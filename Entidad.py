@@ -1,6 +1,9 @@
+import imp
+from ProcesoContratacion import ProcesoContratacion
+from Usuario import Usuario
 class Entidad:
     Id: int
     TipoId: str
-    ProcesoDeContratacion: ProcesoDeContratacion []
+    ProcesoContratacion: ProcesoContratacion
     Usuario: Usuario
     Departamento: str
