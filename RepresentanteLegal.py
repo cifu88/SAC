@@ -1,5 +1,3 @@
-from mailbox import NoSuchMailboxError
-
 from Usuario import Usuario
 
 
