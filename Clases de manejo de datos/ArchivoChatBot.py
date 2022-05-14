@@ -1,7 +1,7 @@
 from CorreoSoporteChatBot import CorreoSoporteChatBot
 from Entidad import Entidad
 
-class ChatBot:
+class ArchivoChatBot:
     Pregunta: str
     Respuesta: Entidad 
     Fecha: str
@@ -13,7 +13,7 @@ class ChatBot:
         NumeroPreguntas = int(input("Ingrese el numero de preguntas : "))
 
         for i in range(NumeroPreguntas):
-            outfile = open('ChatBot.txt','a')
+            outfile = open('ArchivoChatBot.txt','a')
             Pregunta = input("Ingrese la pregunta: ")
             Respuesta= input("Ingrese la respuesta: ")
             outfile.write("Pregunta: " + Pregunta + "\n")

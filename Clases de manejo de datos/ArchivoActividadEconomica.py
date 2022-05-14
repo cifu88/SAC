@@ -1,4 +1,4 @@
-class ActividadEconomica:
+class ArchivoActividadEconomica:
     NombreActividadEconomica: str
     CodigoActividadEconomica: int
 
@@ -7,7 +7,7 @@ class ActividadEconomica:
         NumeroActividades = int(input("Ingrese el número de actividades: "))
 
         for i in range(NumeroActividades):
-            outfile = open('Actividad.txt','a')
+            outfile = open('ArchivoActividad.txt','a')
             NombreActividadEconomica = input("Ingrese el nombre de la actividad económica: ")
             CodigoActividadEconomica= input("Ingrese el código de la actividad económica: ")
             outfile.write("Nombre de la actividad economica: " + NombreActividadEconomica + "\n")

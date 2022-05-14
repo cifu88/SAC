@@ -1,11 +1,11 @@
-class CorreoSoporteChatBot:
+class ArchivoCorreoSoporteChatBot:
     CorreoSoporte: str
 
 
     def main():
         CorreoSoporte = str(input("Ingrese su correo : "))
 
-        outfile = open('CorreoSoporteChatBot.txt','a')
+        outfile = open('ArchivoCorreoSoporteChatBot.txt','a')
         Pregunta = input("Ingrese la pregunta: ")
         outfile.write("Correo : " + CorreoSoporte + "\n")
         outfile.write("Pregunta: " + Pregunta + "\n")

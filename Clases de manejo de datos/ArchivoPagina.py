@@ -1,4 +1,4 @@
-class Pagina:
+class ArchivoPagina:
     Nombre: str
     URL: str
 
@@ -6,7 +6,7 @@ class Pagina:
         NumeroPaginas = int(input("Ingrese el número de paginas: "))
 
         for i in range(NumeroPaginas):
-            outfile = open('Paginas.txt','a')
+            outfile = open('ArchivoPaginas.txt','a')
             Nombre = input("Ingrese el nombre de la pagina: ")
             URL= input("Ingrese la URL de la pagina: ")
             outfile.write("Nombre de la pagina: " + Nombre + "\n")

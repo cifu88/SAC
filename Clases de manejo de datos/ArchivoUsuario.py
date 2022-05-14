@@ -1,6 +1,6 @@
 from ActividadEconomica import ActividadEconomica
 
-class Usuario:
+class ArchivoUsuario:
     Id: int
     CorreoElectronico:str
     Nombre : str
@@ -17,7 +17,7 @@ class Usuario:
         NumeroUsuarios = int(input("Ingrese el número de usuarios: "))
 
         for i in range(NumeroUsuarios):
-            outfile = open('Usuarios.txt','a')
+            outfile = open('ArchivoUsuarios.txt','a')
             Id = input("Ingrese el ID: ")
             CorreoElectronico= input("Ingrese el correo electronico: ")
             Nombre= input("Ingrese el nombre completo: ")

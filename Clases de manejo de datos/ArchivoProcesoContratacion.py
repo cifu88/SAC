@@ -2,7 +2,7 @@ from ActividadEconomica import ActividadEconomica
 from Pagina import Pagina
 
 
-class ProcesoContratacion:
+class ArchivoProcesoContratacion:
     NumeroProceso : str
     Cuantia : int
     Modalidad : str
@@ -18,7 +18,7 @@ class ProcesoContratacion:
         NumeroProcesos = int(input("Ingrese la cantidad de procesos de contratación: "))
 
         for i in range(NumeroProcesos):
-            outfile = open('ProcesosContratacion.txt','a')
+            outfile = open('ArchivoProcesosContratacion.txt','a')
             NumeroProceso = input("Ingrese el número del proceso: ")
             Cuantia= input("Ingrese la cuantia del proceso: ")
             Modalidad = input("Ingrese la modalidad del proceso: ")
