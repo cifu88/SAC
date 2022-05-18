@@ -1,0 +1,3 @@
+Nombre de la actividad economica: & C:/Users/santi/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/santi/OneDrive/Bureau/IAD/Semestre2/Programación I/SAC/SAC/Clases de manejo de datos/ArchivoActividadEconomica.py"
+Codigo: 1
+
