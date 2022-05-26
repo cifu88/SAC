@@ -18,5 +18,6 @@ class ArchivoChatBot:
             Respuesta= input("Ingrese la respuesta: ")
             outfile.write("Pregunta: " + Pregunta + "\n")
             outfile.write("Respuesta: " + Respuesta + "\n\n")
+            outfile.write("=======================================================\n")
 
     main()    

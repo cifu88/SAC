@@ -9,4 +9,5 @@ class ArchivoCorreoSoporteChatBot:
         Pregunta = input("Ingrese la pregunta: ")
         outfile.write("Correo : " + CorreoSoporte + "\n")
         outfile.write("Pregunta: " + Pregunta + "\n")
+        outfile.write("=======================================================\n")
     main()    

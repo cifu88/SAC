@@ -31,5 +31,6 @@ class ArchivoProcesoContratacion:
             outfile.write("Actividad economica del proceso: " + ActividadEconomica + "\n")
             outfile.write("Departamento del proceso: " + Departamento + "\n")
             outfile.write("Pagina del proceso: " + Pagina + "\n\n")
+            outfile.write("=======================================================\n")
 
     main()  

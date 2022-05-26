@@ -12,6 +12,7 @@ class ArchivoActividadEconomica:
             CodigoActividadEconomica= input("Ingrese el código de la actividad económica: ")
             outfile.write("Nombre de la actividad economica: " + NombreActividadEconomica + "\n")
             outfile.write("Codigo: " +CodigoActividadEconomica + "\n\n")
+            outfile.write("=======================================================\n")
 
 
     main()
