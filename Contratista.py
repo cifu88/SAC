@@ -6,5 +6,8 @@ class Contratista(Usuario):
     ProcesoContratacion : ProcesoContratacion
     NumProcesos: str
 
-    def __init__(self,procesoContratacion):
+    def __init__(self, procesoContratacion):
         self.procesoContratacion = ProcesoContratacion
+    
+    def __init__(self, Cargo):
+        super().__init__("Contratista")

@@ -8,11 +8,12 @@ class Usuario:
     Telefono: int
     Ubicacion : str
     ActividadEconomica : ActividadEconomica
+    Cargo = str
 
-    def __init__(self, actividadEconomica, Id, Nombre):
+    def __init__(self, ActividadEconomica, Id, Nombre):
         self.actividadEconomica = ActividadEconomica
         self.nombre = Nombre
         self.id = Id
-
     
-
+    def __init__(self, Cargo):
+        self.cargo = Cargo

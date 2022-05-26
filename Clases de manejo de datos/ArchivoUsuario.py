@@ -7,11 +7,15 @@ class ArchivoUsuario:
     Telefono: int
     Ubicacion : str
     ActividadEconomica : ActividadEconomica
+    Cargo = str
 
-    def __init__(self, actividadEconomica, Id, Nombre):
+    def __init__(self, ActividadEconomica, Id, Nombre):
         self.actividadEconomica = ActividadEconomica
         self.nombre = Nombre
         self.id = Id
+    
+    def __init__(self, Cargo):
+        self.cargo = Cargo
 
     def main():
         NumeroUsuarios = int(input("Ingrese el número de usuarios: "))
@@ -24,12 +28,14 @@ class ArchivoUsuario:
             Telefono= input("Ingrese el numero de telefono: ")
             Ubicacion= input("Ingrese la ubicacion: ")
             ActividadEconomica= input("Ingrese la actividad economica: ")
+            Cargo= input("Ingrese si es Contratista o Representante legal: ")
             outfile.write("ID: " + Id + "\n")
             outfile.write("Correo Electronico: " + CorreoElectronico + "\n\n")
             outfile.write("Nombre: " + Nombre + "\n\n")
             outfile.write("Telefono: " + Telefono + "\n\n")
             outfile.write("Ubicacion: " + Ubicacion + "\n\n")
             outfile.write("Actividad economica: " + ActividadEconomica + "\n\n")
+            outfile.write("Cargo : " + Cargo + "\n\n")
             outfile.write("=======================================================\n")
 
 
