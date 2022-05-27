@@ -14,3 +14,14 @@ class ProcesoContratacion:
         self.actividadEconomica = ActividadEconomica
         self.pagina = Pagina
         
+    def ObtenerNumProcesoContratacion(numeroProceso):
+        return numeroProceso
+
+    def ObtenerCuantia(cuantia):
+        return cuantia
+
+    def ObtenerModalidad(modalidad):
+        return modalidad
+
+    def ObtenerDepartamaento(departamentoContratacion):
+        return departamentoContratacion

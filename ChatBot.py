@@ -10,6 +10,15 @@ class ChatBot:
     CorreoSoporteChatBot: CorreoSoporteChatBot 
 
     def __init__(self, correoSoporteChatBot, entidad, usuario):
-        self.correoSoporteChatBot = CorreoSoporteChatBot
+        self.CorreoSoporteChatBot = correoSoporteChatBot
         self.entidad = Entidad
         self.usuario = Usuario
+
+    def ObtenerPregunta(pregunta):
+        return pregunta
+    def ObtenerRespuesta(respuesta):
+        return respuesta
+    def ObtenerFechaChatBot(fecha):
+        return fecha
+    def ObtenerHoraChatBot(hora):
+        return hora

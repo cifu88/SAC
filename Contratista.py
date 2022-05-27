@@ -11,3 +11,6 @@ class Contratista(Usuario):
     
     def __init__(self, Cargo):
         super().__init__("Contratista")
+
+    def ObtenerNumProcesos(numProcesos):
+        return numProcesos

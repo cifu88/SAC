@@ -17,3 +17,18 @@ class Usuario:
     
     def __init__(self, Cargo):
         self.cargo = Cargo
+
+    def ObtenerNombreUsuario(usuario):
+        return usuario
+
+    def ObtenerCorreoUsuario(correoElectronico):
+        return correoElectronico
+
+    def ObtenerTelefonoUsuario(telefono):
+        return telefono
+    
+    def ObtenerUbicacionUsuario(ubicacion):
+        return ubicacion
+
+    def ObtenerCargoUsuario(cargo):
+        return cargo
